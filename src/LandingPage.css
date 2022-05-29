@@ -1,0 +1,52 @@
+.container {
+    height: 100vh;
+    width: 100%;
+}
+  
+.imagee {
+    width: 35%;
+    height: 60%;
+    border: 5px solid white;
+    display: flex;
+    justify-content:left;
+    border-radius: 50px;
+}
+  
+.imagee > img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50px;
+}
+  
+#landBtn {
+    padding: 4px 12px;
+    font-size: 28px;
+    background-color:white;
+    border: 3px solid black;
+    color: purple;
+    border-radius: 20px;
+}
+  
+#landBtn:hover {
+    cursor: pointer;
+    background-color:indianred;
+    color: black;
+}
+  
+.textLand {
+    height: 100%;
+    margin-left: 19%;
+    margin-top: 34%;
+}
+  
+.textLand p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 45px;
+    color:greenyellow;
+}
+
+.btnWrapper {
+  margin-left: -12%;
+  margin-top: 5%;
+}
+  
