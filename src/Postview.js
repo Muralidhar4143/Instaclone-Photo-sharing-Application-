@@ -4,8 +4,6 @@ import Card from './components/Card';
 import Spinner from './components/Spinner';
 import Header from './components/Header';
 
-
-
 const url = process.env.REACT_APP_API + '/post';
 
 const Postview = () => {
@@ -27,7 +25,8 @@ const Postview = () => {
 
   if (loading) {
     return <Spinner></Spinner>;
-  } else {
+  } 
+  else {
     return (
       <>
         <Header></Header>
@@ -37,7 +36,6 @@ const Postview = () => {
       </>
     );
   }
-  // return <div className="site-container"></div>;
 };
 
 export default Postview;

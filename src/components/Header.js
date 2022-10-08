@@ -3,7 +3,6 @@ import './Header.css';
 import { Link } from 'react-router-dom';
 import {FaCamera} from "react-icons/fa";
 
-
 export default function Header() {
   return (
     <div className='header'>
